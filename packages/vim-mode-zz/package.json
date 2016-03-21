@@ -1,0 +1,63 @@
+{
+  "name": "vim-mode-zz",
+  "main": "./lib/vim-mode-zz",
+  "version": "0.1.1",
+  "coffeelintConfig": {
+    "indentation": {
+      "level": "error",
+      "value": 4
+    },
+    "line_endings": {
+      "value": "unix",
+      "level": "error"
+    }
+  },
+  "description": "Allows to close opened tabs with Vim's ZZ command",
+  "keywords": [
+    "vim",
+    "vim-mode",
+    "ZZ"
+  ],
+  "activationCommands": {
+    "atom-workspace": "vim-mode-zz:saveAndClose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sQu1rr/vim-mode-zz.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "consumedServices": {
+    "vim-mode": {
+      "versions": {
+        "^0.1.0": "consumeVim"
+      }
+    }
+  },
+  "readme": "# vim-mode-zz package\n\nAllows to close opened tabs/splits/windows with Vim's ZZ command as you would\ndo in Vim. Works **only** in Code Editor tabs\n\n## Features\n* When last editor is closed the focus is activated on tree view if it exists\nand cursor is on the currently selected item\n* Non-Vim ZQ binding which acts like :q! (since ex-mode q doesn't restore focus\non the tree view)\n* Doesn't require vim-mode (but why would you use this package then?)\n* Doesn't require tree view to be enabled\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/sQu1rr/vim-mode-zz/issues"
+  },
+  "homepage": "https://github.com/sQu1rr/vim-mode-zz#readme",
+  "_id": "vim-mode-zz@0.1.1",
+  "_shasum": "cf4ceb6dbe9e9b7b835cc25fc1e059158bb9e441",
+  "_resolved": "file:../d-115111-23480-1y8jf1y/package.tgz",
+  "_from": "../d-115111-23480-1y8jf1y/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/vim-mode-zz.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

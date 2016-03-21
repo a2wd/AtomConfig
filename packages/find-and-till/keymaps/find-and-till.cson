@@ -1,0 +1,18 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+# 'body atom-text-editor':
+#   'ctrl-s': 'find-and-till:find'
+#   'ctrl-shift-s': 'find-and-till:select-find'
+#   'ctrl-r': 'find-and-till:find-backwards'
+#   'ctrl-shift-r': 'find-and-till:select-find-backwards'
+#   'ctrl-alt-s': 'find-and-till:till'
+#   'ctrl-alt-shift-s': 'find-and-till:select-till'
+#   'ctrl-alt-r': 'find-and-till:till-backwards'
+#   'ctrl-alt-shift-r': 'find-and-till:select-till-backwards'

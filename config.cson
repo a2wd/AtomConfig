@@ -1,0 +1,33 @@
+"*":
+  "autoclose-html": {}
+  "autocomplete-plus": {}
+  build: {}
+  "build-tools": {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "metrics"
+    ]
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 13
+    invisibles: {}
+  "exception-reporting":
+    userId: "e0337eee-dbf2-d0e7-29c4-c3b1878b7590"
+  "linter-eslint": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "vim-surround": {}
+  welcome:
+    showOnStartup: false
+".java.source":
+  editor:
+    scrollPastEnd: true

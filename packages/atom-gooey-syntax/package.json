@@ -1,0 +1,42 @@
+{
+  "name": "atom-gooey-syntax",
+  "theme": "syntax",
+  "version": "0.2.1",
+  "description": "A lovely, gooey, theme for Atom",
+  "keywords": [
+    "syntax",
+    "theme",
+    "gooey",
+    "simey",
+    "simeydotme",
+    "simon goellner"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeydotme/atom-gooey-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "# gooey-syntax theme\n\n### premise\nA greeny-blue theme with purple/red hints.\nInspired after seeing [@mrmrs_](https://twitter.com/mrmrs_)'s terminal theme while he was giving a talk on CSS. It was delicious!\n\n### conclusion\nI hope you loves it! 🌟\n\n### example \n![Example CSS/LESS/SCSS styling](https://raw.githubusercontent.com/simeydotme/atom-gooey-syntax/master/screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/simeydotme/atom-gooey-syntax/issues"
+  },
+  "homepage": "https://github.com/simeydotme/atom-gooey-syntax#readme",
+  "_id": "atom-gooey-syntax@0.2.1",
+  "_shasum": "43fe6cb44a83d73f44822634b1caf5c629ada882",
+  "_resolved": "file:../d-1151122-3730-12cizc2/package.tgz",
+  "_from": "../d-1151122-3730-12cizc2/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
